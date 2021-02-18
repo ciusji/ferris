@@ -1,3 +1,7 @@
+extern crate rand;
+
+use self::rand::random;
+
 #[derive(Debug)]
 struct Site {
     domain: String,
@@ -25,6 +29,10 @@ pub fn print_struct() {
     // print enum
     let book = Book::Electronic;
     println!("{:?}", book);
+
+    // rand lib
+    let x: u8 = random();
+    println!("{}", x);
 
 }
 
