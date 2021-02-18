@@ -6,6 +6,7 @@ mod b;
 use pro1::print_one;
 use a::a::print_a;
 use b::b::types;
+use b::bb::print_struct;
 
 fn main() {
     // println 不是一个函数，而是一个宏
@@ -21,5 +22,6 @@ fn main() {
     print_one();
     print_a();
     types();
+    print_struct()
 
 }
