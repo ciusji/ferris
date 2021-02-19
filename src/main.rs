@@ -7,8 +7,10 @@ use pro1::print_one;
 use a::a::print_a;
 use b::b::types;
 use b::bb::print_struct;
+use b::nation::nation::government::govern;
+use b::pai::print_pi;
 
-
+// scr 目录下的 main.rs 源文件模式是二进制箱的根，编译之后的二进制箱将于包名相同
 fn main() {
     // println 不是一个函数，而是一个宏
     println!("Hello, world!");
@@ -24,5 +26,7 @@ fn main() {
     print_a();
     types();
     print_struct();
+    govern();
+    print_pi();
 
 }
