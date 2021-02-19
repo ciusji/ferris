@@ -4,3 +4,4 @@ pub mod nation;
 pub mod pai;
 pub mod panic;
 pub mod generic;
+pub mod lifetime;

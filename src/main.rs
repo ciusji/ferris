@@ -11,6 +11,7 @@ use b::nation::nation::government::govern;
 use b::pai::print_pi;
 use b::panic::panic_usage;
 use b::generic::max;
+use b::lifetime::longer;
 
 // scr 目录下的 main.rs 源文件模式是二进制箱的根，编译之后的二进制箱将于包名相同
 fn main() {
@@ -33,6 +34,14 @@ fn main() {
 
     let a = [1, 4, 2, 6, 90, 10];
     println!("Max: {}", max(&a));
+
+    let r;
+    {
+        let s1 = "rust";
+        let s2 = "ecmascript";
+        r = longer(s1, s2);
+        println!("{} is longer", r);
+    }
 
     panic_usage();
 
