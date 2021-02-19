@@ -13,6 +13,7 @@ use b::panic::panic_usage;
 use b::generic::max;
 use b::lifetime::longer;
 use b::file::read;
+use b::vect::coll;
 
 // scr 目录下的 main.rs 源文件模式是二进制箱的根，编译之后的二进制箱将于包名相同
 fn main() {
@@ -50,6 +51,9 @@ fn main() {
 
     // io::xx
     read();
+
+    // collection
+    coll();
 
     panic_usage();
 

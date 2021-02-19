@@ -6,3 +6,4 @@ pub mod panic;
 pub mod generic;
 pub mod lifetime;
 pub mod file;
+pub mod vect;
