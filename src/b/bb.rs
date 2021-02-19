@@ -57,6 +57,5 @@ pub fn print_struct() {
     let x: u8 = random();
     println!("{}", x);
 
-
 }
 
