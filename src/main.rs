@@ -12,6 +12,7 @@ use b::pai::print_pi;
 use b::panic::panic_usage;
 use b::generic::max;
 use b::lifetime::longer;
+use b::file::read;
 
 // scr 目录下的 main.rs 源文件模式是二进制箱的根，编译之后的二进制箱将于包名相同
 fn main() {
@@ -42,6 +43,13 @@ fn main() {
         r = longer(s1, s2);
         println!("{} is longer", r);
     }
+
+    // 环境参数 std::env
+    let args = std::env::args();
+    println!("{:?}", args);
+
+    // io::xx
+    read();
 
     panic_usage();
 
