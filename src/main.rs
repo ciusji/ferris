@@ -10,6 +10,7 @@ use b::bb::print_struct;
 use b::nation::nation::government::govern;
 use b::pai::print_pi;
 use b::panic::panic_usage;
+use b::generic::max;
 
 // scr 目录下的 main.rs 源文件模式是二进制箱的根，编译之后的二进制箱将于包名相同
 fn main() {
@@ -29,6 +30,10 @@ fn main() {
     print_struct();
     govern();
     print_pi();
+
+    let a = [1, 4, 2, 6, 90, 10];
+    println!("Max: {}", max(&a));
+
     panic_usage();
 
 }
