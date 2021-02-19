@@ -7,3 +7,4 @@ pub mod generic;
 pub mod lifetime;
 pub mod file;
 pub mod vect;
+pub mod log;
