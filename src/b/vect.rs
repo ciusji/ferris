@@ -5,6 +5,10 @@ pub fn coll() {
     vector.push(16);
     vector.push(32);
     println!("{:?}", vector);
+    // vector foreach
+    for i in vector {
+        println!("{}", i);
+    }
 
     // string
     let one = 1.to_string();
