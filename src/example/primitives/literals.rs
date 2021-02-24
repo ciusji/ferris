@@ -14,6 +14,11 @@ pub fn literals() {
     println!("1 - 2 = {}", 1i32 - 2);
     println!("1 - 2 = {}", 1i32 - 2);
 
+    // Boolean logic
+    println!("true and false is {}", true && false);
+    println!("true or false is {}", true || false);
+    println!("not true is {}", !true);
+
     // Underscore to improve readability
     println!("{}", 1_000_000u32);
 

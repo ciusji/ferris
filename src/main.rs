@@ -3,10 +3,12 @@
 mod example;
 
 use example::primitives::literals::literals;
+use example::primitives::tuples::tuple_usage;
 
 
 fn main() {
     // primitives
     literals();
+    tuple_usage();
 
 }
