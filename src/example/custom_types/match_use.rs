@@ -17,7 +17,9 @@ enum Work {
 }
 
 pub fn match_use() {
+    // Explicitly `use` each name so they are available without manual scoping.
     use crate::Status::{ Poor, Rich };
+    // Automatically `use` each name inside `Work`.
     use crate::Work::*;
 
     let status = Poor;
