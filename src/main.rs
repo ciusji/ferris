@@ -3,9 +3,11 @@
 mod example;
 
 use example::conversion::from_into::from_into;
+use example::conversion::try_from_into::try_from_into;
 
 fn main() {
     // conversion
     from_into();
+    try_from_into();
 
 }
