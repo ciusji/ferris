@@ -1,10 +1,11 @@
 // Copyright 2021 Ferris Project Authors. License user Apache License.
 
-use example::variable_bindings::bindings::bindings;
-
 mod example;
 
+use example::conversion::from_into::from_into;
+
 fn main() {
-    // variable bindings
-    bindings();
+    // conversion
+    from_into();
+
 }
