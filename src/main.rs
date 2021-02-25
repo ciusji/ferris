@@ -2,15 +2,12 @@
 
 mod example;
 
-use example::primitives::literals::literals;
-use example::primitives::tuples::tuple_usage;
-use example::primitives::arrays::arrays_slices;
+use example::custom_types::structures::structures;
+use example::custom_types::enums::enums;
 
 
 fn main() {
-    // primitives
-    literals();
-    tuple_usage();
-    arrays_slices();
-
+    // custom types
+    structures();
+    enums();
 }
