@@ -42,7 +42,7 @@ pub fn structures() {
     let bottom_right = Point { x: 5.2, ..point };
     println!("second point coordinates: {}, {}", bottom_right.x, bottom_right.y);
 
-    // Destructure the point using a `let` binding
+    // Destructure the point using a `let` variable_bindings
     // let Point { x: top_edge, y: left_edge } = point;
     // println!("{}, {}", top_edge, left_edge);
 

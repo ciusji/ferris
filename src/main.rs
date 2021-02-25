@@ -1,15 +1,10 @@
 // Copyright 2021 Ferris Project Authors. License user Apache License.
 
+use example::variable_bindings::bindings::bindings;
+
 mod example;
 
-use example::custom_types::structures::structures;
-use example::custom_types::enums::enums;
-use example::custom_types::constants::constants;
-
-
 fn main() {
-    // custom types
-    structures();
-    enums();
-    constants();
+    // variable bindings
+    bindings();
 }
