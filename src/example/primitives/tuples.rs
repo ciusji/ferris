@@ -8,6 +8,11 @@ fn reverse(pair: (i32, bool)) -> (bool, i32) {
     (boolean, integer)
 }
 
+// The following struct is for the activity
+#[derive(Debug)]
+struct Matrix(f32, f32, f32, f32);
+
+
 pub fn tuple_usage() {
     let long_tuple = ( 1u8, 2u16, 3u32, 4u64,
         -1i8, -2i16, -3i32, -4i64,
@@ -42,5 +47,8 @@ pub fn tuple_usage() {
     let tuple = (1, "hello", 4.5, true);
     let (a, b, c, d) = tuple;
     println!("a={:?} b={:?} c={:?} d={:?}", a, b, c, d);
+
+    let matrix = Matrix(1.1, 2.2, 3.3, 4.4);
+    println!("{:?}", matrix);
 
 }
