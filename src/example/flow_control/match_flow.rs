@@ -24,4 +24,16 @@ pub fn matches() {
     };
 
     println!("{} -> {}", boolean, binary);
+
+    // A match guard can be added to filter the arm.
+    let pir = (2, -2);
+
+    pritnln!("tell me about {:?}", pair);
+
+    match pair {
+        (x, y) if x == y => println!("These are twins"),
+        (x, y) if x + y == 0 => println!("Antimatter, kaboom!"),
+        (x, _) if x % 2 == 1 => println!("The first one is odd"),
+        _ => println!("No correlation..."),
+    }
 }
