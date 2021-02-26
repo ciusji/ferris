@@ -19,4 +19,10 @@ impl fmt::Display for Circle {
 pub fn strings() {
     let circle = Circle { radius: 6 };
     println!("{}", circle.to_string());
+
+    // Parsing a string
+    let parsed: i32 = "5".parse().unwrap();
+    let turbo_parsed = "10".parse::<i32>().unwrap();
+    let sum = parsed + turbo_parsed;
+    println!("Sum: {}", sum);
 }
