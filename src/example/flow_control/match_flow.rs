@@ -26,9 +26,9 @@ pub fn matches() {
     println!("{} -> {}", boolean, binary);
 
     // A match guard can be added to filter the arm.
-    let pir = (2, -2);
+    let pair = (2, -2);
 
-    pritnln!("tell me about {:?}", pair);
+    println!("tell me about {:?}", pair);
 
     match pair {
         (x, y) if x == y => println!("These are twins"),
