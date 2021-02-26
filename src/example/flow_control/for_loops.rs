@@ -27,4 +27,5 @@ pub fn for_loops() {
     for name in names.into_iter() {
         println!("{:?}", name);
     }
+
 }
