@@ -2,13 +2,10 @@
 
 mod example;
 
-use example::conversion::from_into::from_into;
-use example::conversion::try_from_into::try_from_into;
-use example::conversion::strings::strings;
+use example::expressions::expression::expression;
+
 
 fn main() {
-    // conversion
-    from_into();
-    try_from_into();
-    strings();
+    // expressions
+    expression();
 }
