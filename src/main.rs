@@ -2,10 +2,10 @@
 
 mod example;
 
-use example::expressions::expression::expression;
+use example::flow_control::infinite_loop::infinite_loop;
 
 
 fn main() {
-    // expressions
-    expression();
+    // flow of control
+    infinite_loop();
 }
