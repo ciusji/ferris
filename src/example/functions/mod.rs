@@ -3,3 +3,4 @@
 // pub mod fizz_bizz;
 pub mod method;
 pub mod closures;
+pub mod closure_capturing;

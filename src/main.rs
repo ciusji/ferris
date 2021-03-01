@@ -5,6 +5,7 @@ mod example;
 // use example::functions::fizz_bizz::fizz_bizz;
 use example::functions::method::methods;
 use example::functions::closures::closures;
+use example::functions::closure_capturing::capturing;
 
 
 fn main() {
@@ -12,4 +13,5 @@ fn main() {
     // fizz_bizz();
     methods();
     closures();
+    capturing();
 }
