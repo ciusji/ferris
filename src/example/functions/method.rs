@@ -2,11 +2,14 @@
 
 // Function Methods
 
+#[derive(Debug)]
+
 struct Point {
     x: f64,
     y: f64,
 }
 
+// Implementation block, all `Point` methods go in here
 impl Point {
     // This is a static method
     // Static methods don't need to be called by an instance
@@ -80,6 +83,8 @@ pub fn methods() {
         p1: Point::origin(),
         p2: Point::new(3.0, 4.0),
     };
+
+    println!("Rectangle p1: {:?}", rectangle.p1);
 
     // Instance methods are called using the dot operator
     // Note that the first argument `&self` is implicitly passed, i.e.

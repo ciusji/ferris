@@ -4,6 +4,8 @@
 // variables, and, if the function returns a value, the return type must be specified after an
 // arrow `->`.
 
+#[warn(dead_code)]
+
 // Unlike C/C++, there's no restriction on the order of function definitions
 pub fn fizz_bizz() {
     // We can use this function here, and define it somewhere later

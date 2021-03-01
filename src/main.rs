@@ -2,11 +2,12 @@
 
 mod example;
 
-use example::functions::fizz_bizz::fizz_bizz;
+// use example::functions::fizz_bizz::fizz_bizz;
+use example::functions::method::methods;
 
 
 fn main() {
     // functions
-    fizz_bizz();
-
+    // fizz_bizz();
+    methods();
 }
