@@ -40,6 +40,4 @@ pub fn closure_args() {
 
     apply(diary);
 
-
-
 }

@@ -5,3 +5,4 @@ pub mod method;
 pub mod closures;
 pub mod closure_capturing;
 pub mod closure_pars;
+pub mod closure_input;
