@@ -6,6 +6,7 @@ mod example;
 use example::functions::method::methods;
 use example::functions::closures::closures;
 use example::functions::closure_capturing::capturing;
+use example::functions::closure_pars::closure_args;
 
 
 fn main() {
@@ -14,4 +15,5 @@ fn main() {
     methods();
     closures();
     capturing();
+    closure_args();
 }

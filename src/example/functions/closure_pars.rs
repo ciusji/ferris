@@ -21,6 +21,24 @@ pub fn closure_args() {
     use std::mem;
 
     let greeting = "hello";
+    // A non-copy type
+    // `to_owned` creates owned data from borrowed one
+    let mut farewell = "goodbye".to_owned();
+
+    // Capture 2 variables: `greeting` by reference and `farewell` by value.
+    let diary = || {
+        // `greeting` is by reference: requires `Fn`
+        println!("I said {}.", greeting);
+
+        // Mutation forces `farewell` to be captured by mutable reference. Now requires `FnMut`.
+        farewell.push_str("!!!");
+        println!("Then I screamed {}.", farewell);
+        println!("Now I can sleep. zzzz");
+
+        mem::drop(farewell);
+    };
+
+    apply(diary);
 
 
 
