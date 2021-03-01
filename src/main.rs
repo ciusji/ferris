@@ -2,6 +2,9 @@
 
 mod example;
 
+use example::attributes::cfg::cfg_using;
+
 fn main() {
-    // crates
+    // attributes
+    cfg_using();
 }
