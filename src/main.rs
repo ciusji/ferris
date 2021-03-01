@@ -8,6 +8,7 @@ use example::functions::closures::closures;
 use example::functions::closure_capturing::capturing;
 use example::functions::closure_pars::closure_args;
 use example::functions::closure_input::closure_input;
+use example::functions::higher_order_functions::higher_order_functions;
 
 
 fn main() {
@@ -18,4 +19,5 @@ fn main() {
     capturing();
     closure_args();
     closure_input();
+    higher_order_functions();
 }
