@@ -3,9 +3,10 @@
 mod example;
 
 use example::modules::module::module;
+use example::modules::super_self::super_self;
 
 fn main() {
     // modules
     module();
-
+    super_self();
 }
