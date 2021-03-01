@@ -36,6 +36,7 @@ pub fn module() {
 
     // and the private fields of a public struct cannot be accessed.
     // error: aborting due to previous error
-    println!("The closed box contains: {}", _closed_box.contents);
+    // println!("The closed box contains: {}", _closed_box.contents);
+    // TODO ^ Try uncommenting this line
 
 }
