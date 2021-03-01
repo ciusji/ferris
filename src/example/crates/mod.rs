@@ -3,3 +3,6 @@
 // A crate is a compilation unit in Rust.
 // A crate an be compiled into a binary or into a library. By default, rustc will produce a binary
 // from a crate. This behavior can be overridden by passing the --crate-type flag to lib.
+
+// pub mod public_function;
+// pub mod using_lib;
