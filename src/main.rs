@@ -2,10 +2,8 @@
 
 mod example;
 
-use example::generics::generic::generic;
-
 fn main() {
-    // generics
-    generic();
+    // scoping_rules
+
 }
 
