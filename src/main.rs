@@ -2,8 +2,10 @@
 
 mod example;
 
-fn main() {
-    // scoping_rules
+use example::traits::trait_generic::generic;
 
+fn main() {
+    // Trait
+    generic();
 }
 
