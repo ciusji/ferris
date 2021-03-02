@@ -3,9 +3,11 @@
 mod example;
 
 use example::traits::trait_generic::generic;
+use example::traits::derive::derive;
 
 fn main() {
     // Trait
     generic();
+    derive();
 }
 
