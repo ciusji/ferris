@@ -5,3 +5,4 @@ pub mod operator_overloading;
 pub mod returning_trait;
 pub mod trait_generic;
 pub mod drop;
+pub mod iterators;
