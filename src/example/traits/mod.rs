@@ -2,3 +2,4 @@
 
 pub mod trait_generic;
 pub mod derive;
+pub mod returning_trait;

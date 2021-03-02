@@ -4,10 +4,13 @@ mod example;
 
 use example::traits::trait_generic::generic;
 use example::traits::derive::derive;
+use example::traits::returning_trait::returning_trait;
 
 fn main() {
     // Trait
     generic();
     derive();
+    returning_trait();
+
 }
 
