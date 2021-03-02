@@ -42,10 +42,7 @@ impl Sheep {
 impl Animal for Sheep {
     // `Self` is the implementor type: `Sheep`.
     fn new(name: &'static str) -> Sheep {
-        Sheep {
-            name,
-            naked: false,
-        }
+        Sheep { name, naked: false }
     }
 
     fn name(&self) -> &'static str {
@@ -65,9 +62,7 @@ impl Animal for Sheep {
         // For example, we can add some quiet contemplation.
         println!("{} pauses briefly... {}", self.name, self.noise());
     }
-
 }
-
 
 pub fn generic() {
     let mut dolly: Sheep = Animal::new("Dolly");

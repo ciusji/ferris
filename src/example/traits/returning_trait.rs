@@ -54,5 +54,8 @@ pub fn returning_trait() {
     let random_number = 0.234;
     let animal = random_animal(random_number);
 
-    println!("You've randomly chosen an animal, and it says {}", animal.noise());
+    println!(
+        "You've randomly chosen an animal, and it says {}",
+        animal.noise()
+    );
 }

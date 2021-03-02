@@ -31,7 +31,6 @@ impl Inches {
 // `Seconds`, a tuple struct with no additional attributes.
 struct Seconds(i32);
 
-
 pub fn derive() {
     let _one_second = Seconds(1);
 
@@ -47,13 +46,11 @@ pub fn derive() {
 
     let meter = Centimeters(100.0);
 
-    let cmp =
-        if foot.to_centimeters() < meter {
-            "smaller"
-        } else {
-            "bigger"
-        };
+    let cmp = if foot.to_centimeters() < meter {
+        "smaller"
+    } else {
+        "bigger"
+    };
 
     println!("One foot is {} that one meter.", cmp);
-
 }

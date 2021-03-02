@@ -28,7 +28,6 @@ impl ops::Add<Bar> for Foo {
     }
 }
 
-
 pub fn operator_overloading() {
     println!("Foo + Bar = {:?}", Foo + Bar);
 }
