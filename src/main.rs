@@ -2,8 +2,8 @@
 
 mod example;
 
-use example::macro_rules::say_hello::macro_hello;
+use example::error_handling::panic::simple_panic;
 
 fn main() {
-    macro_hello();
+    simple_panic();
 }
