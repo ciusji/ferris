@@ -6,6 +6,7 @@ use example::traits::derive::derive;
 use example::traits::operator_overloading::operator_overloading;
 use example::traits::returning_trait::returning_trait;
 use example::traits::trait_generic::generic;
+use example::traits::drop::drop_trait;
 
 fn main() {
     // Trait
@@ -13,4 +14,5 @@ fn main() {
     derive();
     returning_trait();
     operator_overloading();
+    drop_trait();
 }

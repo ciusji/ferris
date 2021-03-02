@@ -20,3 +20,32 @@ impl Drop for Droppable {
         println!("> Dropping {}", self.name);
     }
 }
+
+pub fn drop_trait() {
+    let _a = Droppable { name: "a" };
+
+    // Block A
+    {
+        let _b = Droppable { name: "b" };
+
+        // Block B
+        {
+            let _c = Droppable { name: "c" };
+            let _d = Droppable { name: "d" };
+
+            println!("Exiting block B")
+        }
+        println!("Just exit block B");
+
+        println!("Exit block A");
+    }
+    println!("Just exit block A");
+
+    // Variable can be manually dropped using the `drop` function
+    drop(_a);
+
+    println!("end of the main function");
+
+    // `_a` won't be `drop`ed again here, because it already has been manually dropped.
+
+}
