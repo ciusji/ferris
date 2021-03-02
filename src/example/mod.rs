@@ -11,4 +11,5 @@
 // pub mod functions;
 // pub mod modules;
 // pub mod crates;
-pub mod attributes;
+// pub mod attributes;
+pub mod generics;

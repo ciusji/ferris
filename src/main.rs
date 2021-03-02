@@ -2,9 +2,10 @@
 
 mod example;
 
-use example::attributes::cfg::cfg_using;
+use example::generics::generic::generic;
 
 fn main() {
-    // attributes
-    cfg_using();
+    // generics
+    generic();
 }
+
