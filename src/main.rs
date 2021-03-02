@@ -2,19 +2,8 @@
 
 mod example;
 
-use example::traits::derive::derive;
-use example::traits::operator_overloading::operator_overloading;
-use example::traits::returning_trait::returning_trait;
-use example::traits::trait_generic::generic;
-use example::traits::drop::drop_trait;
-use example::traits::iterators::iterator_fib;
+use example::macro_rules::say_hello::macro_hello;
 
 fn main() {
-    // Trait
-    generic();
-    derive();
-    returning_trait();
-    operator_overloading();
-    drop_trait();
-    iterator_fib();
+    macro_hello();
 }
