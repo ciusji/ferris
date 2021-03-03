@@ -5,9 +5,11 @@ mod example;
 use example::std_libs::box_stack_heap::box_stack_heap;
 use example::std_libs::vectors::vectors;
 use example::std_libs::strings::strings;
+use example::std_libs::options::options;
 
 fn main() {
     box_stack_heap();
     vectors();
     strings();
+    options();
 }
