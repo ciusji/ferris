@@ -11,6 +11,8 @@ use example::std_libs::hashmap::hash_map;
 use example::std_libs::hashset::hash_set;
 use example::std_libs::rc::rc_usage;
 use example::std_libs::arc::arc_usage;
+use example::std_libs::threads::thread_usage;
+use example::std_libs::mr::mr_task;
 
 fn main() {
     box_stack_heap();
@@ -22,4 +24,6 @@ fn main() {
     hash_set();
     rc_usage();
     arc_usage();
+    thread_usage();
+    mr_task();
 }

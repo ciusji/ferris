@@ -9,3 +9,5 @@ pub mod hashmap;
 pub mod hashset;
 pub mod rc;
 pub mod arc;
+pub mod threads;
+pub mod mr;
