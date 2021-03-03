@@ -9,6 +9,8 @@ use example::std_libs::options::options;
 use example::std_libs::results::result;
 use example::std_libs::hashmap::hash_map;
 use example::std_libs::hashset::hash_set;
+use example::std_libs::rc::rc_usage;
+use example::std_libs::arc::arc_usage;
 
 fn main() {
     box_stack_heap();
@@ -18,4 +20,6 @@ fn main() {
     result();
     hash_map();
     hash_set();
+    rc_usage();
+    arc_usage();
 }

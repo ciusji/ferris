@@ -7,3 +7,5 @@ pub mod options;
 pub mod results;
 pub mod hashmap;
 pub mod hashset;
+pub mod rc;
+pub mod arc;
