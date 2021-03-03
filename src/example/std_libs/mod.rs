@@ -6,3 +6,4 @@ pub mod strings;
 pub mod options;
 pub mod results;
 pub mod hashmap;
+pub mod hashset;

@@ -8,6 +8,7 @@ use example::std_libs::strings::strings;
 use example::std_libs::options::options;
 use example::std_libs::results::result;
 use example::std_libs::hashmap::hash_map;
+use example::std_libs::hashset::hash_set;
 
 fn main() {
     box_stack_heap();
@@ -16,4 +17,5 @@ fn main() {
     options();
     result();
     hash_map();
+    hash_set();
 }
