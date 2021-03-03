@@ -2,8 +2,10 @@
 
 mod example;
 
-use example::error_handling::panic::simple_panic;
+use example::std_libs::box_stack_heap::box_stack_heap;
+use example::std_libs::vectors::vectors;
 
 fn main() {
-    simple_panic();
+    box_stack_heap();
+    vectors();
 }
