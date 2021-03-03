@@ -5,3 +5,4 @@ pub mod vectors;
 pub mod strings;
 pub mod options;
 pub mod results;
+pub mod hashmap;
