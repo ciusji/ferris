@@ -11,3 +11,4 @@ pub mod rc;
 pub mod arc;
 pub mod threads;
 pub mod mr;
+pub mod demos;
