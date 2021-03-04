@@ -8,7 +8,6 @@
 use std::fs::File;
 use std::path::Path;
 use std::io::{Read, Write};
-use std::io;
 
 static LOREM_IPSUM: &str =
     "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

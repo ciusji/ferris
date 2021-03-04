@@ -19,3 +19,4 @@ pub mod message_passing;
 pub mod share_state;
 pub mod path;
 pub mod file_ios;
+pub mod child_processes;
