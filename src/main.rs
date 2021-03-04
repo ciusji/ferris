@@ -14,6 +14,7 @@ use example::std_libs::arc::arc_usage;
 use example::std_libs::threads::thread_usage;
 use example::std_libs::mr::mr_task;
 use example::std_libs::demos::demo;
+use example::std_libs::thread_spawn::thread_spawn;
 
 fn main() {
     box_stack_heap();
@@ -28,4 +29,5 @@ fn main() {
     thread_usage();
     mr_task();
     demo();
+    thread_spawn();
 }

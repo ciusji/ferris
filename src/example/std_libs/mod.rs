@@ -12,3 +12,5 @@ pub mod arc;
 pub mod threads;
 pub mod mr;
 pub mod demos;
+pub mod channels;
+pub mod thread_spawn;

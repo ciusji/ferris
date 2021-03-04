@@ -20,6 +20,7 @@ pub fn demo() {
         // Returns an iterator over the [`char`]s of a string slice.
         let total: u32 = chunk
             .chars()
+            // `{}` there are optional if the closure body is a single expression.
             .map(|c| c.to_digit(10).expect("should be a digit"))
             .sum();
         collectors.push(total);
