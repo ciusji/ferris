@@ -16,4 +16,4 @@ pub mod channels;
 pub mod thread_spawn;
 pub mod move_spawn;
 pub mod message_passing;
-pub mod multi_producer;
+pub mod share_state;
