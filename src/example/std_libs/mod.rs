@@ -15,3 +15,4 @@ pub mod demos;
 pub mod channels;
 pub mod thread_spawn;
 pub mod move_spawn;
+pub mod message_passing;
