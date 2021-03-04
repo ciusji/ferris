@@ -19,6 +19,7 @@ use example::std_libs::move_spawn::move_thread_spawn;
 use example::std_libs::message_passing::message_passing;
 use example::std_libs::share_state::share_state;
 use example::std_libs::channels::channels;
+use example::std_libs::path::path_info;
 
 fn main() {
     box_stack_heap();
@@ -38,4 +39,5 @@ fn main() {
     channels();
     message_passing();
     share_state();
+    path_info();
 }
