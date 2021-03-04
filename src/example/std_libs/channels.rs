@@ -11,6 +11,7 @@ use std::thread;
 #[allow(dead_code)]
 static NTHREADS: i32 = 3;
 
+#[warn(dead_code)]
 pub fn channels() {
     // Channels have two endpoints: the `Sender<T>` and the `Receiver<T>` where T is the type of
     // the message to be transferred.
