@@ -20,6 +20,7 @@ use example::std_libs::message_passing::message_passing;
 use example::std_libs::share_state::share_state;
 use example::std_libs::channels::channels;
 use example::std_libs::path::path_info;
+use example::std_libs::file_ios::file_ops;
 
 fn main() {
     box_stack_heap();
@@ -40,4 +41,5 @@ fn main() {
     message_passing();
     share_state();
     path_info();
+    file_ops();
 }

@@ -18,3 +18,4 @@ pub mod move_spawn;
 pub mod message_passing;
 pub mod share_state;
 pub mod path;
+pub mod file_ios;
