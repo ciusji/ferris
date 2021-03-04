@@ -14,3 +14,4 @@ pub mod mr;
 pub mod demos;
 pub mod channels;
 pub mod thread_spawn;
+pub mod move_spawn;

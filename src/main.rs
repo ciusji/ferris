@@ -15,6 +15,7 @@ use example::std_libs::threads::thread_usage;
 use example::std_libs::mr::mr_task;
 use example::std_libs::demos::demo;
 use example::std_libs::thread_spawn::thread_spawn;
+use example::std_libs::move_spawn::move_thread_spawn;
 
 fn main() {
     box_stack_heap();
@@ -30,4 +31,5 @@ fn main() {
     mr_task();
     demo();
     thread_spawn();
+    move_thread_spawn();
 }
