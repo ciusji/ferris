@@ -9,3 +9,4 @@ authors = ["ciusji <bqjimaster@gmail.com>"]
 # clap = "2.27.1" # from crateslio
 # rand = { git = "https://github.com/rust-lang-nursery/rand" } # from online repo
 # bar = { path = "../bar" } # from a path in the local filesystem
+structopt = "0.3.13"
