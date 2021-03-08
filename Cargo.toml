@@ -11,3 +11,5 @@ edition = "2018"
 # rand = { git = "https://github.com/rust-lang-nursery/rand" } # from online repo
 # bar = { path = "../bar" } # from a path in the local filesystem
 structopt = "0.3.13"
+termcolor = "1.1"
+clap = "2.33.3"
