@@ -24,4 +24,12 @@ pub fn app() {
     let _input = stdio.lock();
     let _output = StandardStream::stdout(ColorChoice::AlwaysAnsi);
 
+    // use std::fs;
+
+    // the `?` operator can only be used in a function that returns `Result` or `Option`
+    // (or another type that implements `Try`)
+    // E0277 Help: the trait `Try` is not implemented for `()`
+    // Note: required by `from_error
+    // fs::metadata("/some/file/path.txt")?;
+
 }
