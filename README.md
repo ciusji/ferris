@@ -39,7 +39,7 @@ Now let's begin!
 * [Testing]() - All sorts of testing in Rust.
 * [Unsafe Operations]()
 * [Compatibility]()
-* [Meta]()]() - Documentation, Benchmarking.
+* [Meta]() - Documentation, Benchmarking.
 
 
 ## Author
