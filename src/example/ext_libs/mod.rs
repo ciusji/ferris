@@ -2,3 +2,4 @@
 
 pub mod termcolor_usage;
 pub mod clap_usage;
+pub mod git2_usage;
