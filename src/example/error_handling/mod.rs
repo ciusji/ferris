@@ -5,3 +5,4 @@
 // pub mod panic;
 pub mod option_unwrap_example;
 pub mod unpacking_options;
+pub mod combinator_map;

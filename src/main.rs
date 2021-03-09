@@ -3,10 +3,12 @@
 mod example;
 
 use example::error_handling::option_unwrap_example::option_unwrap_example;
-use crate::example::error_handling::unpacking_options::unpacking_options;
+use example::error_handling::unpacking_options::unpacking_options;
+use example::error_handling::combinator_map::combinator_map;
 
 
 fn main() {
     option_unwrap_example();
     unpacking_options();
+    combinator_map();
 }
