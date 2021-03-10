@@ -1,7 +1,7 @@
 // Copyright 2021 Ferris Project Authors. License user Apache License.
 
 // Similar to functions, implementations require care to remain generic.
-
+#![allow(dead_code)]
 struct Val {
     val: f64,
 }

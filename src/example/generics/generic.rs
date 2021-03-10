@@ -5,6 +5,7 @@
 // syntax. Namely, being generic requires taking great cate to specify over which types a generic
 // type is actually considered valid. The simplest and most common use of generics is for the
 // type parameters.
+#![allow(dead_code)]
 
 // A concrete type `A`
 struct A;
