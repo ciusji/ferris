@@ -10,3 +10,4 @@ pub mod combinator_and_then;
 pub mod result_map;
 pub mod result_alias;
 pub mod result_question;
+pub mod multiple_errors;
