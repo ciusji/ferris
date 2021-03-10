@@ -6,3 +6,4 @@
 pub mod option_unwrap_example;
 pub mod unpacking_options;
 pub mod combinator_map;
+pub mod combinator_and_then;
