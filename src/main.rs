@@ -8,6 +8,7 @@ use crate::example::error_handling::combinator_map::combinator_map;
 use crate::example::error_handling::combinator_and_then::combinator_and_then;
 use crate::example::error_handling::result_map::result_map;
 use crate::example::error_handling::result_alias::result_alias;
+use crate::example::error_handling::result_question::result_question;
 
 
 fn main() {
@@ -17,4 +18,5 @@ fn main() {
     combinator_and_then();
     result_map();
     result_alias();
+    result_question();
 }
