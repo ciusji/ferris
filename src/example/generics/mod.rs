@@ -2,3 +2,4 @@
 
 pub mod generic;
 pub mod implements;
+pub mod traits;

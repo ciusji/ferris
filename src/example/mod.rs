@@ -12,11 +12,11 @@
 // pub mod modules;
 // pub mod crates;
 // pub mod attributes;
-// pub mod generics;
+pub mod generics;
 // pub mod scoping_rules;
 // pub mod traits;
 // pub mod macro_rules;
-pub mod error_handling;
+// pub mod error_handling;
 // pub mod std_libs;
 // pub mod cli;
 // pub mod ext_libs;
