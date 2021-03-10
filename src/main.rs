@@ -11,6 +11,7 @@ use crate::example::error_handling::result_alias::result_alias;
 use crate::example::error_handling::result_question::result_question;
 use crate::example::error_handling::multiple_errors::multiple_errors;
 use crate::example::error_handling::define_error_type::define_error_type;
+use crate::example::error_handling::iterating_over_result::iterating_over_result;
 
 
 fn main() {
@@ -23,4 +24,5 @@ fn main() {
     result_question();
     multiple_errors();
     define_error_type();
+    iterating_over_result();
 }

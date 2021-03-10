@@ -12,3 +12,4 @@ pub mod result_alias;
 pub mod result_question;
 pub mod multiple_errors;
 pub mod define_error_type;
+pub mod iterating_over_result;
