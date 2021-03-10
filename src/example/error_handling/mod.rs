@@ -11,3 +11,4 @@ pub mod result_map;
 pub mod result_alias;
 pub mod result_question;
 pub mod multiple_errors;
+pub mod define_error_type;
