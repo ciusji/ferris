@@ -3,7 +3,11 @@
 mod example;
 
 use crate::example::scoping_rules::structs::structs;
+use crate::example::scoping_rules::traits::traits;
+use crate::example::scoping_rules::bounds::bounds;
 
 fn main() {
     structs();
+    traits();
+    bounds();
 }
