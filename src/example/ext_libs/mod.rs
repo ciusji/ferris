@@ -4,3 +4,4 @@
 // pub mod clap_usage;
 // pub mod git2_usage;
 pub mod log_usage;
+pub mod serde_usage;
