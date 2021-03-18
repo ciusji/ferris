@@ -2,8 +2,8 @@
 
 mod example;
 
-use crate::example::ext_libs::log_usage::log_usage;
+use crate::example::ext_libs::sled_usage::store;
 
 fn main() {
-    log_usage();
+    store();
 }

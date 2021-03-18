@@ -3,5 +3,6 @@
 // pub mod termcolor_usage;
 // pub mod clap_usage;
 // pub mod git2_usage;
-pub mod log_usage;
-pub mod serde_usage;
+// pub mod log_usage;
+// pub mod serde_usage;
+pub mod sled_usage;
